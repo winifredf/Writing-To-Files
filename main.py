@@ -1,3 +1,3 @@
 employee_file = open("employees.txt", "a")
-print(employee_file.read())
+employee_file.write("")
 employee_file.close()
